@@ -82,15 +82,37 @@ git clone https://github.com/jungyuminn/ArenaGod.git
 cd ArenaGod
 ```
 
-2. 필요한 패키지 설치
+2. Python 환경 설정 (택 1)
+
+   ### 방법 1: Conda 사용
+   ```bash
+   # Conda가 설치되어 있지 않다면 먼저 설치: https://docs.conda.io/miniconda/
+   conda create -n arena_god python=3.9
+   conda activate arena_god
+   ```
+
+   ### 방법 2: venv 사용
+   ```bash
+   # Windows
+   python -m venv venv
+   venv\Scripts\activate
+
+   # macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. 필요한 패키지 설치
 ```bash
 pip install -r requirements.txt
 ```
 
-3. 애플리케이션 실행
+4. 애플리케이션 실행
 ```bash
 python src/main.py
 ```
+
+⚠️ 주의: 실행하기 전에 반드시 가상환경을 활성화해야 합니다 (conda activate arena_god 또는 venv 활성화)
 
 ## 🔨 빌드
 

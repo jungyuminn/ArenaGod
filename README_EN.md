@@ -82,15 +82,37 @@ git clone https://github.com/jungyuminn/ArenaGod.git
 cd ArenaGod
 ```
 
-2. Install required packages
+2. Set up Python environment (choose one)
+
+   ### Option 1: Using Conda
+   ```bash
+   # Install Conda first if not installed: https://docs.conda.io/miniconda/
+   conda create -n arena_god python=3.9
+   conda activate arena_god
+   ```
+
+   ### Option 2: Using venv
+   ```bash
+   # Windows
+   python -m venv venv
+   venv\Scripts\activate
+
+   # macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install required packages
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application
+4. Run the application
 ```bash
 python src/main.py
 ```
+
+⚠️ Note: Make sure to activate the virtual environment before running (conda activate arena_god or venv activation)
 
 ## 🔨 Build
 
