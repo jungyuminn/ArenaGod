@@ -54,7 +54,6 @@ qrc_*.cpp
 ui_*.h
 
 # Project specific
-data/champion_records.json
 resources/cache/*
 !resources/cache/.gitkeep
 
