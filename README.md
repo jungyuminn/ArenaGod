@@ -1,8 +1,6 @@
 # 🎮 ArenaGod
 
 <div align="center">
-  <img src="docs/images/preview.png" alt="ArenaGod Preview" width="800"/>
-  
   [한국어](README.md) | [English](README_EN.md)
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,7 +9,11 @@
   [![GitHub issues](https://img.shields.io/github/issues/jungyuminn/ArenaGod)](https://github.com/jungyuminn/ArenaGod/issues)
 </div>
 
-리그 오브 레전드 아레나 모드를 위한 챔피언 가이드 및 통계 추적 데스크톱 애플리케이션입니다.
+<div align="center">
+  <img src="docs/images/preview.png" alt="ArenaGod Preview" width="800"/>
+</div>
+
+리그 오브 레전드 아레나 모드의 챔피언 통계와 우승 기록을 관리하는 데스크톱 애플리케이션입니다.
 
 ## ✨ 주요 기능
 
@@ -58,15 +60,14 @@
   - 상위 8개 시너지 챔피언 표시
   - 클릭 시 해당 챔피언 통계로 이동
 - 증강체 추천
-  - 실버/골드/프리즈매틱 티어별 분류
+  - 실버/골드/프리즘 티어별 분류
   - 증강체 상세 정보 및 설명
 - 아이템 빌드 가이드
   - 시작 아이템 추천
-  - 핵심 아이템 빌드
-  - 프리즈매틱 아이템 옵션
+  - 전설 아이템 빌드
+  - 프리즘 아이템 옵션
 
 ### 🎨 사용자 경험
-<img src="docs/images/preview.png" alt="User Experience" width="700"/>
 
 - 다크 모드 지원
 - 반응형 레이아웃
