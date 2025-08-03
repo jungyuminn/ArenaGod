@@ -77,10 +77,7 @@ class ItemImage(QLabel):
         else:
             image_path = os.path.join(IMAGES_PATH, "items", item_type, f"{item_name}.png")
         
-        print(f"\nItemImage - Loading image:")
-        print(f"Image path: {image_path}")
-        print(f"File exists: {os.path.exists(image_path)}")
-        
+
         if os.path.exists(image_path):
             pixmap = QPixmap(image_path)
             if not pixmap.isNull():
