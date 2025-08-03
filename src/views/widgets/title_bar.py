@@ -1,6 +1,6 @@
 from PyQt6.QtWidgets import QFrame, QHBoxLayout, QPushButton
 from PyQt6.QtCore import Qt, pyqtSignal
-from ..champion_grid.widgets.custom_widgets import ToggleSwitch
+from .toggle_switch import ToggleSwitch
 from config.font_config import get_font, FontWeight
 
 class TitleBar(QFrame):
