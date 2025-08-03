@@ -1,0 +1,17 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>resources/fonts/Pretendard-Regular.ttf</file>
+        <file>resources/fonts/Pretendard-Bold.ttf</file>
+        <file>resources/fonts/Pretendard-Medium.ttf</file>
+        <file>resources/images/champions/*</file>
+        <file>resources/images/items/legendary/*</file>
+        <file>resources/images/items/prismatic/*</file>
+        <file>resources/images/items/boots/*</file>
+        <file>resources/images/items/start_items/*</file>
+        <file>resources/images/augments/gold/*</file>
+        <file>resources/images/augments/prismatic/*</file>
+        <file>resources/images/augments/silver/*</file>
+        <file>resources/images/skills/*</file>
+    </qresource>
+</RCC> 
