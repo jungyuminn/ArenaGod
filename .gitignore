@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Windows
+Thumbs.db
+
+# Qt specific
+*.qmlc
+*.jsc
+*.qrc~
+*.ui~
+*.qml~
+*.pyc
+.qt_for_python/
+.qmake.stash
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Project specific
+data/champion_records.json
+resources/cache/*
+!resources/cache/.gitkeep
+
+# Logs
+*.log
+logs/
