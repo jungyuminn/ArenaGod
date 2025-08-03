@@ -1,7 +1,7 @@
 # 🎮 ArenaGod
 
 <div align="center">
-  [한국어](README.md) | [English](README_EN.md)
+  <a href="README.md">한국어</a> | <a href="README_EN.md">English</a>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)

@@ -1,9 +1,7 @@
 # 🎮 ArenaGod
 
 <div align="center">
-  <img src="docs/images/preview.png" alt="ArenaGod Preview" width="800"/>
-  
-  [한국어](README.md) | [English](README_EN.md)
+  <a href="README.md">한국어</a> | <a href="README_EN.md">English</a>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
@@ -11,7 +9,11 @@
   [![GitHub issues](https://img.shields.io/github/issues/jungyuminn/ArenaGod)](https://github.com/jungyuminn/ArenaGod/issues)
 </div>
 
-A desktop application for League of Legends Arena Mode champion guides and statistics tracking.
+<div align="center">
+  <img src="docs/images/preview.png" alt="ArenaGod Preview" width="800"/>
+</div>
+
+A desktop application for managing champion statistics and victory records in League of Legends Arena Mode.
 
 ## ✨ Features
 
@@ -66,7 +68,6 @@ A desktop application for League of Legends Arena Mode champion guides and stati
   - Prismatic item options
 
 ### 🎨 User Experience
-<img src="docs/images/preview.png" alt="User Experience" width="700"/>
 
 - Dark mode support
 - Responsive layout
