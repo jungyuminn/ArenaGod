@@ -1,7 +1,7 @@
 # 🎮 ArenaGod
 
 <div align="center">
-  <img src="docs/images/detail_view_1.png" alt="ArenaGod Preview" width="800"/>
+  <img src="docs/images/preview.png" alt="ArenaGod Preview" width="800"/>
   
   [한국어](README.md) | [English](README_EN.md)
 
@@ -15,44 +15,63 @@ A desktop application for League of Legends Arena Mode champion guides and stati
 
 ## ✨ Features
 
-### 🎯 Champion Grid View
-- View all champions at a glance
-- Tier indicators based on win rates
-- Track your champion victories
-- Toggle between grid/list views
-- Champion name search
+### 📊 Champion Rankings (Left)
+<img src="docs/images/left_view.gif" alt="Champion Ranking Demo" width="700"/>
 
-### 📊 Champion Rankings
-- Champion rankings based on win rates
-- Tier classification (Tier 1-5)
-- Real-time search filtering
+- Real-time Arena Mode champion rankings
+- Smart search with Korean initial consonants
+- Click to view detailed champion statistics
+- Color-coded tiers for quick performance assessment
 
-### 📝 Champion Details
-- Basic information and statistics
-- Synergy champion recommendations
-- Tier-based augment recommendations
-  - Silver augments 🥈
-  - Gold augments 🥇
-  - Prismatic augments 💎
-- Item build guides
-  - Starting items 🏃
-  - Core items ⚔️
-  - Prismatic items 💎
+### 🎯 Champion Grid (Center)
+<img src="docs/images/grid_winner_check.gif" alt="Grid Winner Check Demo" width="700"/>
 
-## 🖼️ Screenshots
+- Left-click for detailed champion statistics
+- Right-click to toggle victory status
+- Victory counter at the top
+- Synchronized victory status across views
 
-<details>
-<summary>View more screenshots</summary>
+#### Advanced Filtering
+<img src="docs/images/grid_filter.gif" alt="Grid Filter Demo" width="700"/>
 
-### Champion Details
-<img src="docs/images/detail_view_2.png" alt="Champion Detail" width="600"/>
+- Multiple sorting options
+  - Alphabetical order
+  - Victory count
+  - Non-victory count
+- Quick 'Non-winners only' toggle
+- Combinable search, filter, and toggle options
 
-### Augment Recommendations
-<img src="docs/images/detail_view_3.png" alt="Augments" width="600"/>
+#### Flexible Layout
+<img src="docs/images/grid_expand.gif" alt="Grid Expand Demo" width="700"/>
 
-### Item Builds
-<img src="docs/images/detail_view_4.png" alt="Items" width="600"/>
-</details>
+- Responsive grid column adjustment
+- Grid show/hide functionality
+<img src="docs/images/grid_hide.gif" alt="Grid Hide Demo" width="700"/>
+
+### 📝 Champion Details (Right)
+<img src="docs/images/right_view.gif" alt="Champion Detail Demo" width="700"/>
+
+- Champion Basic Information
+  - Pick rate, win rate, tier data
+  - Left-click to toggle victory status
+- Synergy Champion Recommendations
+  - Top 8 synergistic champions
+  - Click to view their statistics
+- Augment Recommendations
+  - Silver/Gold/Prismatic tier categorization
+  - Detailed augment information
+- Item Build Guides
+  - Starting item recommendations
+  - Core item builds
+  - Prismatic item options
+
+### 🎨 User Experience
+<img src="docs/images/preview.png" alt="User Experience" width="700"/>
+
+- Dark mode support
+- Responsive layout
+- Intuitive UI/UX
+- Real-time data synchronization
 
 ## 🚀 Installation & Usage
 
