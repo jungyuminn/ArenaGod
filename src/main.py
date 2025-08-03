@@ -4,7 +4,7 @@ import ctypes
 from PyQt6.QtWidgets import QApplication
 from PyQt6.QtGui import QIcon
 from views.main_window import MainWindow
-from config.styles import init_fonts
+from config.font_config import init_fonts
 from config.settings import RESOURCES_PATH
 
 def main():
