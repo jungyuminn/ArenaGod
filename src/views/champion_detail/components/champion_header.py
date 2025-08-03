@@ -31,7 +31,6 @@ class ChampionImage(QPushButton):
 
             pixmap = QPixmap(direct_path)
             if not pixmap.isNull():
-                print("Successfully loaded image from direct path")
                 self.normal_icon = QIcon(self.create_rounded_image(pixmap, False))
                 self.checked_icon = QIcon(self.create_rounded_image(pixmap, True))
                 
@@ -42,7 +41,6 @@ class ChampionImage(QPushButton):
                 if on_click:
                     self.clicked.connect(self.on_button_clicked)
             else:
-                print(f"Failed to load image from direct path")
                 self.setText("No IMG")
     
     def create_rounded_image(self, pixmap, is_checked):
@@ -113,10 +111,7 @@ class SynergyChampion(QPushButton):
             }
         """)
         
-        print(f"\nSynergyChampion - Loading image:")
-        print(f"Image path: {image_path}")
-        print(f"File exists: {os.path.exists(image_path)}")
-        
+
         pixmap = QPixmap(image_path)
         if not pixmap.isNull():
             rounded_pixmap = self.create_rounded_image(pixmap)
@@ -129,15 +124,11 @@ class SynergyChampion(QPushButton):
             if on_click:
                 self.clicked.connect(lambda: on_click(ko_name, en_name))
         else:
-            print(f"Failed to load image: {image_path}")
             champion_name = os.path.basename(image_path)
             direct_path = os.path.join(IMAGES_PATH, "champions", champion_name)
-            print(f"Trying direct path: {direct_path}")
-            print(f"Direct path exists: {os.path.exists(direct_path)}")
             
             pixmap = QPixmap(direct_path)
             if not pixmap.isNull():
-                print("Successfully loaded image from direct path")
                 rounded_pixmap = self.create_rounded_image(pixmap)
                 self.setIcon(QIcon(rounded_pixmap))
                 self.setIconSize(QSize(40, 40))
@@ -148,7 +139,6 @@ class SynergyChampion(QPushButton):
                 if on_click:
                     self.clicked.connect(lambda: on_click(ko_name, en_name))
             else:
-                print(f"Failed to load image from direct path")
                 self.setText("No IMG")
     
     def create_rounded_image(self, pixmap):
