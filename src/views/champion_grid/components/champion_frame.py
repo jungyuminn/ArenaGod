@@ -105,7 +105,7 @@ class ChampionFrame(QFrame):
 
             button.setIcon(self.checked_icon if is_checked else self.normal_icon)
         else:
-            print(f"Failed to load image: {self.image_path}")
+
             button.setText("No IMG")
         
         button.clicked.connect(self.on_button_clicked)
