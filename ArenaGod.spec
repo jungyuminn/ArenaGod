@@ -61,11 +61,9 @@ icon_files = [(f, 'resources/icons') for f in [
 ]]
 all_files.extend(icon_files)
 
-# data 파일 수집
-data_files = [(f, 'data') for f in [
-    'data/champion_records.json'
-]]
-all_files.extend(data_files)
+# data 파일은 AppData에 저장되므로 제외
+# data_files = []
+# all_files.extend(data_files)
 
 a = Analysis(
     ['src/main.py'],

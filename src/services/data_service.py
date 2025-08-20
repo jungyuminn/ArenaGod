@@ -13,7 +13,8 @@ class DataService:
     def __init__(self):
         if not self._initialized:
             self.champions_data = {"champions": {}}
-            self.data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data")
+            # Windows AppData 폴더에 데이터 저장
+            self.data_dir = os.path.join(os.getenv('APPDATA'), 'ArenaGod')
             self.data_file = os.path.join(self.data_dir, "champion_records.json")
             os.makedirs(self.data_dir, exist_ok=True)
             self.load_data()
